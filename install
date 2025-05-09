@@ -1,0 +1,5 @@
+rm -rf ~/.config/fish
+rm -rf ~/.config/nvim
+
+ln -srv fish ~/.config
+ln -srv nvim ~/.config
