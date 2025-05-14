@@ -10,8 +10,8 @@ local config = wezterm.config_builder()
 config.color_scheme = "Gruvbox dark, hard (base16)"
 warn_about_missing_glyphs = true
 -- Changing the font
--- config.font = wezterm.font("IosevkaTerm Nerd Font Mono")
-config.font = wezterm.font("JetBrainsMono NF")
+config.font = wezterm.font("IosevkaTerm Nerd Font Mono")
+-- config.font = wezterm.font("JetBrainsMono NF")
 config.font_size = 16.5
 
 config.font = wezterm.font_with_fallback {
