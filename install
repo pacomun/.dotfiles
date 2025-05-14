@@ -1,7 +1,10 @@
+#!/bin/bash
 rm -rf ~/.config/fish
 rm -rf ~/.config/nvim
 rm -rf ~/.wezterm.lua
+rm -rf ~/.zshrc
 
 ln -srv fish ~/.config
 ln -srv nvim ~/.config
 ln -srv wezterm.lua ~/.wezterm.lua
+ln -srv zshrc ~/.zshrc
