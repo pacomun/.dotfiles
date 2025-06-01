@@ -1,15 +1,5 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
-vim.cmd("set mouse=a")
-vim.cmd("set showcmd")
-vim.cmd("set textwidth=79")
-vim.cmd("set showmatch")
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=4")
-vim.cmd("set softtabstop=0")
-vim.cmd("set shiftwidth=0")
-vim.cmd("set smarttab")
-vim.cmd("set autoindent")
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
@@ -45,4 +35,3 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
